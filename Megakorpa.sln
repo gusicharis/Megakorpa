@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megakorpa", "Megakorpa\Megakorpa.csproj", "{FFEA3520-BB12-432B-B7EE-584D13B41D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megakorpa_servis", "Megakorpa_servis\Megakorpa_servis.csproj", "{F34819DE-EDB1-4B66-8C78-5870CC4A374F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFEA3520-BB12-432B-B7EE-584D13B41D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEA3520-BB12-432B-B7EE-584D13B41D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEA3520-BB12-432B-B7EE-584D13B41D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEA3520-BB12-432B-B7EE-584D13B41D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34819DE-EDB1-4B66-8C78-5870CC4A374F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34819DE-EDB1-4B66-8C78-5870CC4A374F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34819DE-EDB1-4B66-8C78-5870CC4A374F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34819DE-EDB1-4B66-8C78-5870CC4A374F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9F6EBE2-B81A-4E68-A817-7A3AF10A8FF1}
+	EndGlobalSection
+EndGlobal

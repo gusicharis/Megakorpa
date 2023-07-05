@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd944a562fa343c98b5935c5d232bc65" Name="Diagram1">
+        <EntityTypeShape EntityType="megakorpaModel.Drzava" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.Grad" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.Narudzba" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.NarudzbaProizvod" Width="1.5" PointX="10.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.Proizvod" Width="1.5" PointX="7.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.Proizvodjac" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.RadnoMjesto" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.VrstaProizvoda" Width="1.5" PointX="5.25" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="megakorpaModel.Zaposlenik" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="megakorpaModel.FK__Grad__DrzavaID__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Narudzba__GradID__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Proizvodj__GradI__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Zaposleni__GradI__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Narudzba__Zaposl__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__NarudzbaP__Narud__208CD6FA" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__NarudzbaP__Proiz__2180FB33" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Proizvod__Proizv__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Proizvod__VrstaP__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="megakorpaModel.FK__Zaposleni__Radno__7E37BEF6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
